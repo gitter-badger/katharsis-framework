@@ -2,9 +2,8 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Osmorc" name="OSGi">
-      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="katharsis-core-3.0.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="io.katharsis.core" bundleVersion="3.0.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="katharsis-parent-3.0.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="io.katharsis.core" bundleVersion="3.0.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties>
-          <property key="Bundle-Description" value="Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/" />
           <property key="Export-Package" value="io.katharsis.dispatcher.*,io.katharsis.errorhandling.*,io.katharsis.jackson.*,io.katharsis.locator.*,io.katharsis.queryParams.*,io.katharsis.repository.*,io.katharsis.request.*,io.katharsis.resource.*,io.katharsis.response.*,io.katharsis.utils.*" />
           <property key="Bundle-Name" value="katharsis-core" />
         </additionalProperties>
@@ -13,8 +12,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <output url="file://$MODULE_DIR$/../katharsis-parent/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../katharsis-parent/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
